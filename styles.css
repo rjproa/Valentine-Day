@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.956);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.modal-content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal-content h2 {
+  color: white;
+}
+
+.modal-content img {
+  width: 20%;
+  height: auto;
+}
+
+.modal-content p {
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  color: white;
+}
+
+.modal-content button {
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+#contenido-principal {
+  background: url('img/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.tarjeta {
+  width: 80%;
+  max-width: 700px;
+  background-color: rgba(55, 53, 53, 0.521);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  color: #ccc5c5;
+}
+
+
+
+#botones {
+  display: flex;
+}
+
+button {
+  margin: 0 2rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+}

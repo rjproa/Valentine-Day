@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Para mi princesita hermosa ❤️</title>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2> Hola mi amor 😊❤️</h2>
+      <img src="img/modal.jpg" alt="Imagen del Modal">
+      <p>Hola mi niña preciosa👑. Sabias que las cartas no son solo de papel?😄. Existen las cartas digitales y este es
+        una de ellas 😊.
+        Ambos sabemos que el de la memoria de pollo soy yo, pero me gustaría recordarte algo muy importante.. Tu eres mi
+        persona favorita 💖. Mi persona especial 😊. Una personita que hizo mucho en mi vida y me enseño a amar. Y hoy
+        tengo algo que quiero preguntarte, quizá algo nuevo pero que me gustaría hacerlo 🥰, por favor haz click en el
+        boton para leer la pregunta....</p>
+      <button class="close" onclick="cerrarModal()">Cerrar</button>
+    </div>
+  </div>
+
+  <!-- Contenido principal después de cerrar el modal -->
+  <div id="contenido-principal">
+    <h1>¿Te gustaría ser mi Valentin? 👉👈</h1>
+    <div class="tarjeta">
+      <p>Si mi amor, leíste bien. ¿Te gustaría ser mi San Valentin?. ¿Mi persona especial?. Esto es algo nuevo en estos
+        años perooo me pareció muy tierno e importante hacerle esta pregunta a tu pareja, a esa persona que esta contigo
+        en las buenas y malas, que conoce lo bueno y lo malo de ti y que aun asi te sigue queriendo y tu eres esa
+        persona para mi. Mi persona favorita ❤️. Esto no signfica que estas obligada a pasar el 14 de febrero conmigo
+        (aunque me gustaría que asi fuera) esto es algo más íntimo y especial, una pregunta única en el año y que no se
+        le puede hacer asi por asi, pero yo te la hago a ti en este momento. Te dejo dos botones para que me puedas
+        responder. jjaskj.. siento un poco de nerviooos. Te dejo decidiendo y no es por ponerte presión pero te amo
+        mucho muchoooooo muchisisiissismooooo❤️❤️❤️❤️. De aqui a la luna😊</p>
+    </div>
+    <div id="botones">
+      <button id="si" onclick="mostrarCorazon()">Sí</button>
+      <button id="no" onclick="cambiarTextoNo()">No</button>
+    </div>
+  </div>
+  <div id="corazon-container">
+    <div id="corazon"></div>
+  </div>
+
+  <audio id="cancion1" src="audios/Nuestro Amor.mp3"></audio>
+  <audio id="cancion2" src="audios/aplausos.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
